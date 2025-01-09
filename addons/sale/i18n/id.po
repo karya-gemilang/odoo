@@ -908,12 +908,12 @@ msgstr "Tambahkan produk"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Add a section"
-msgstr "Add a section"
+msgstr "Tambahkan bagian"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Add note"
-msgstr "Tambahkan catatan"
+msgstr "Tambah catatan"
 
 #. module: sale
 #. odoo-javascript
@@ -930,12 +930,12 @@ msgstr "Tambahkan produk opsional"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Add product"
-msgstr "Tambahkan produk"
+msgstr "Tambah produk"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Add section"
-msgstr "Tambahkan bagian"
+msgstr "Tambah bagian"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
