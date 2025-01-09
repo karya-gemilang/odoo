@@ -948,7 +948,7 @@
                             <h1>
                                 <field name="name" invisible="not (name or name_placeholder or quick_edit_mode)" readonly="state != 'draft'" options="{'placeholder_field': 'name_placeholder'}"/>
 
-                                <span invisible="name or name_placeholder or quick_edit_mode">Draft</span>
+                                <span invisible="name or quick_edit_mode">Draft</span>
                             </h1>
                         </div>
                         <group>
@@ -1122,12 +1122,12 @@
                                                options="{'no_quick_create': True}"
                                                domain="[('deprecated', '=', False), ('account_type', 'not in', ('asset_receivable', 'liability_payable', 'off_balance'))]"
                                                required="display_type not in ('line_note', 'line_section')"/>
-                                        <field name="analytic_distribution" widget="analytic_distribution"
+                                        <!-- <field name="analytic_distribution" widget="analytic_distribution"
                                                string="Analytic"
                                                groups="analytic.group_analytic_accounting"
                                                optional="show"
                                                options="{'product_field': 'product_id', 'account_field': 'account_id', 'amount_field': 'price_subtotal'}"
-                                               business_domain_compute="parent.move_type in ['out_invoice', 'out_refund', 'out_receipt'] and 'invoice' or parent.move_type in ['in_invoice', 'in_refund', 'in_receipt'] and 'bill' or 'general'"/>
+                                               business_domain_compute="parent.move_type in ['out_invoice', 'out_refund', 'out_receipt'] and 'invoice' or parent.move_type in ['in_invoice', 'in_refund', 'in_receipt'] and 'bill' or 'general'"/> -->
                                         <field name="quantity" optional="show"/>
                                         <field name="product_uom_category_id" column_invisible="True"/>
                                         <field name="product_uom_id" string="UoM" groups="uom.group_uom" optional="show" width="92px"/>
