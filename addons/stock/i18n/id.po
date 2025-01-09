@@ -6080,7 +6080,7 @@ msgstr "Urutan yang ditandatangani oleh %s"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
 msgid "Ordered"
-msgstr "Memerintahkan"
+msgstr "Dipesan"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_orderpoint_snooze__orderpoint_ids
