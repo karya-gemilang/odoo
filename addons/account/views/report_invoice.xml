@@ -64,7 +64,7 @@
                             <span t-if="o.name != '/'" t-field="o.name">INV/2023/0001</span>
                         </t>
                         <div class="oe_structure"></div>
-                        <div id="informations" class="row mb-4">
+                        <div id="informations" class="d-sm-flex mb-4">
                             <div class="col" t-if="o.invoice_date" name="invoice_date">
                                 <t t-if="o.move_type == 'out_invoice'"><strong>Invoice Date</strong></t>
                                 <t t-elif="o.move_type == 'out_refund'"><strong>Credit Note Date</strong></t>

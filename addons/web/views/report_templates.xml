@@ -26,7 +26,7 @@
                     });
                 </script>
             </head>
-            <body t-attf-class="o_body_html {{'container' if not full_width else 'container-fluid'}} overflow-x-hidden" t-att-dir="env['res.lang']._get_data(code=lang or env.user.lang).direction or 'ltr'">
+            <body t-attf-class="{{'container' if not full_width else 'container-fluid'}} overflow-x-hidden" t-att-dir="env['res.lang']._get_data(code=lang or env.user.lang).direction or 'ltr'">
                 <div id="wrapwrap">
                     <main>
                         <t t-out="0"/>
@@ -716,7 +716,7 @@
              t-att-data-oe-model="o and o._name"
              t-att-data-oe-id="o and o.id"
              t-att-data-oe-lang="o and o.env.context.get('lang')">
-            <div t-att-class="not information_block and 'd-flex justify-content-between align-items-end'">
+            <div t-att-class="not information_block and 'd-sm-flex justify-content-between align-items-end'">
                 <t t-call="web.address_layout">
                     <t t-set="custom_layout_address" t-value="true"/>
                 </t>
