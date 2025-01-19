@@ -716,7 +716,7 @@
              t-att-data-oe-model="o and o._name"
              t-att-data-oe-id="o and o.id"
              t-att-data-oe-lang="o and o.env.context.get('lang')">
-            <div t-att-class="not information_block and 'd-sm-flex justify-content-between align-items-end'">
+            <div t-att-class="not information_block and 'justify-content-between align-items-end' + (report_type == 'pdf' and ' d-flex' or ' d-sm-flex')">
                 <t t-call="web.address_layout">
                     <t t-set="custom_layout_address" t-value="true"/>
                 </t>

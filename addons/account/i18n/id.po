@@ -1390,7 +1390,7 @@ msgstr "<strong>Tanggal</strong>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Delivery Date</strong>"
-msgstr "<strong>Tanggal Pengiriman</strong>"
+msgstr "<strong>Tanggal Kirim</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.bill_preview
@@ -1400,7 +1400,7 @@ msgstr "<strong>Jatuh Tempo:</strong>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 msgid "<strong>Due Date</strong>"
-msgstr "<strong>Tanggal Jatuh Tempo</strong>"
+msgstr "<strong>Jatuh Tempo</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_statement
