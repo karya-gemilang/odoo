@@ -1211,7 +1211,7 @@ msgstr "Dengan membayar,"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "By signing, you confirm acceptance on behalf of"
-msgstr "Dengan menandatangani, Anda mengonfirmasi persetujuan atas nama"
+msgstr "Dengan menandatangani, Anda mengonfirmasi pesanan atas nama"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_account_bank_statement_line__campaign_id
@@ -5270,7 +5270,7 @@ msgstr "Berlaku hingga"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Validate Order"
-msgstr "Validasi Orde"
+msgstr "Validasi Order"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_product_product__expense_policy
@@ -5547,7 +5547,7 @@ msgstr "hari"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "for the"
-msgstr "untuk"
+msgstr "sejumlah"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
@@ -5563,7 +5563,7 @@ msgstr "mari melanjutkan"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "quote."
-msgstr "quote."
+msgstr "."
 
 #. module: sale
 #. odoo-python
