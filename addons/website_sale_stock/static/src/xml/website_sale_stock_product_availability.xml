@@ -14,7 +14,7 @@
                     </t>
                 </div>
                 <div id="stock_notification_div" t-if="!allow_out_of_stock_order">
-                    <div class="btn btn-link px-0" t-if="!has_stock_notification"
+                    <div class="btn btn-link px-0 text-start" t-if="!has_stock_notification"
                          id="product_stock_notification_message">
                         <i class="fa fa-envelope-o me-1"/>
                         Get notified when back in stock
