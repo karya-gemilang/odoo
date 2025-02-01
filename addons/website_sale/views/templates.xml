@@ -1379,7 +1379,6 @@
                             <p t-else="" class="alert alert-warning">
                                 This product has no valid combination.
                             </p>
-                            <t t-call="website_sale.product_accordion"/>
                             <div
                                 id="contact_us_wrapper"
                                 t-attf-class="{{'d-flex' if combination_info['prevent_zero_price_sale'] else 'd-none'}} oe_structure oe_structure_solo #{_div_classes}"
@@ -1399,6 +1398,7 @@
                                     </div>
                                 </section>
                             </div>
+                            <t t-call="website_sale.product_accordion"/>
                             <div
                                 t-if="not is_view_active('website_sale_comparison.accordion_specs_item')"
                                 id="product_attributes_simple"
