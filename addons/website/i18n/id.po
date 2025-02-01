@@ -17102,7 +17102,7 @@ msgstr "found(s)"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_search_box
 msgid "found)"
-msgstr "found)"
+msgstr "ditemukan)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
