@@ -309,7 +309,7 @@ msgid ""
 "                                                    </small>"
 msgstr ""
 "<small class=\"form-text text-muted\">\n"
-"                                                        Mengubah nama perusahaan atau nomor PPN tidak diizinkan setelah dokumen diterbitkan untuk akun Anda. Mohon hubungi kami langsung untuk melakukan perubahan ini.\n"
+"                                                        Mengubah nama perusahaan atau nomor NIK/NPWP tidak diizinkan setelah dokumen diterbitkan untuk akun Anda. Mohon hubungi kami langsung untuk melakukan perubahan ini.\n"
 "                                                    </small>"
 
 #. module: website_sale
@@ -1241,7 +1241,7 @@ msgid ""
 "Changing VAT number is not allowed once document(s) have been issued for "
 "your account. Please contact us directly for this operation."
 msgstr ""
-"Mengganti nomor PPN tidak diizinkan setelah dokumen diterbitkan untuk akun "
+"Mengganti nomor NIK/NPWP tidak diizinkan setelah dokumen diterbitkan untuk akun "
 "Anda. Mohon hubungi kami langsung untuk melakukan penggantian."
 
 #. module: website_sale
@@ -4251,7 +4251,7 @@ msgstr "Storage Cabinets"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "Street and Number"
-msgstr "Jalan dan Nomr"
+msgstr "Jalan dan Nomor"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -4675,7 +4675,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/website_sale/controllers/main.py:0
 msgid "VAT"
-msgstr "PPN"
+msgstr "NIK/NPWP"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_add_to_cart_options

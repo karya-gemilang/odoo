@@ -4345,7 +4345,7 @@ msgid ""
 "Changing VAT number is not allowed once invoices have been issued for your "
 "account. Please contact us directly for this operation."
 msgstr ""
-"Mengganti PPN tidak dibolehkan setelah faktur sudah dikeluarkan untuk akun "
+"Mengganti NIK/NPWP tidak dibolehkan setelah faktur sudah dikeluarkan untuk akun "
 "Anda. Silahkan langsung hubungi kami untuk operasi ini."
 
 #. module: account
@@ -17543,7 +17543,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position__vat_required
 msgid "VAT required"
-msgstr "PPN diperlukan"
+msgstr "NIK/NPWP diperlukan"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_lock_exception_form
